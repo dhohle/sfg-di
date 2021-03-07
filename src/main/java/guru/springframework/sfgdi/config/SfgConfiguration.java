@@ -12,11 +12,8 @@ import org.springframework.context.annotation.Configuration;
 public class SfgConfiguration {
 
 
-//    @Value("${guru.username}")
     private String username;
-//    @Value("${guru.password}")
     private String password;
-//    @Value("${guru.jdbcurl}")
     private String jdbcurl;
 
     public String getUsername() {
