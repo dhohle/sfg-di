@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: en,dev
+
+guru:
+  username: "superuser"
+  password: "dbPassword"
+  jdbcurl: "someUrlForDBWithYaml"
